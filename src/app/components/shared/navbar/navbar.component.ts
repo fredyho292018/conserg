@@ -7,9 +7,16 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
+  lenguaje: string[] = ['Español', 'English'];
   constructor(public translate: TranslateService) { }
   cambiar(idioma: string) {
-    this.translate.use(idioma);
+    if ( idioma == 'Español') {
+      this.translate.use('es');
+    }
+    if ( idioma == 'English') {
+      this.translate.use('en');
+    }
+
   }
   ngOnInit() {
   }

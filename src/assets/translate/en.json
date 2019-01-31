@@ -7,7 +7,8 @@
         "Team": "Team",
         "Contact": "Contact",
         "Remember": "Remember",
-        "Language": "Language"
+        "Language": "English",
+        "Concierge": "Concierge"
     },
     "home": {
         "Welcome to Remember": "Welcome to Remember",
@@ -54,6 +55,5 @@
         "Message": "Message",
         "Send1": "Send me a copy of this message",
         "Send": "Send"
-
     }
 }
