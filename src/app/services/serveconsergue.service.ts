@@ -54,7 +54,7 @@ export class ServeconsergueService {
     },
     {
       clasificacion: 'Team',
-      titulo: 'Mallorca DS Concierge Free Time Services',
+      titulo: 'Mallorca DS Concierge Comprehensive Security System Services',
       id: 3
     },
     {
@@ -483,8 +483,8 @@ export class ServeconsergueService {
       }
     ],
       id: 10,
-      clasificacionid: 4,
-      clasificacion: this.clasifi[4]
+      clasificacionid: 3,
+      clasificacion: this.clasifi[3]
     }
   ];
 
