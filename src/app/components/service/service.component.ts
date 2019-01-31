@@ -1,0 +1,31 @@
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { ServeconsergueService, ClasificacionI, ServeI, ActividadI, VideoI } from 'src/app/services/serveconsergue.service';
+import { TranslateService } from '@ngx-translate/core';
+
+
+@Component({
+  selector: 'app-service',
+  templateUrl: './service.component.html',
+  styleUrls: ['./service.component.css']
+})
+export class ServiceComponent implements OnInit {
+
+   // servicioP: ServeI[] = [];
+   servicioT: ServeI = null;
+   constructor(private _activatedRoute: ActivatedRoute,
+     private serv: ServeconsergueService, private rou: Router,
+     public translate: TranslateService) {
+     this._activatedRoute.params.subscribe(parans => {
+       console.log(parans['id']);
+       // this.servicioP = serv.getDsLista();
+       this.servicioT = serv.getServicio(parans['id']);
+       console.log(this.servicioT);
+     }
+     );
+    }
+
+   ngOnInit() {
+   }
+
+ }
