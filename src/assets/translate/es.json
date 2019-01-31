@@ -48,6 +48,14 @@
     "Fun Pack": "Paquete de diversión",
     "Sorry requested page not found": "Lo sentimos, la página solicitada no se encuentra",
     "Please select the desired option in the menu": "Por favor seleccione en el menú la opción deseada",
-    "Read more": "Leer más"
+    "Read more": "Leer más",
+    "contactos": {
+        "Contact us": "Contáctenos",
+        "Name": "Nombre",
+        "E-mail": "Correo",
+        "Message": "Mensaje",
+        "Send1": "Enviame una copia de este mensaje",
+        "Send": "Enviame"
+    }
 
 }

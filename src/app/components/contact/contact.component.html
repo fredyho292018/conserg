@@ -14,7 +14,7 @@
 
                             <!--Card image-->
                             <div class="view view-cascade overlay waves-light" mdbWavesEffect>
-                                <mdb-card-img src="https://mdbootstrap.com/img/Photos/Others/men.jpg"></mdb-card-img>
+                                <mdb-card-img [src]="contact.imagen"></mdb-card-img>
                                 <a>
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
@@ -24,12 +24,12 @@
                             <mdb-card-body cascade="true" class="text-center">
                                 <!--Card content-->
                                 <h4 class="card-title">
-                                    <strong>Billy Cullen</strong>
+                                    <strong>{{contact.nombre}}</strong>
                                 </h4>
-                                <h5>Web developer</h5>
+                                <h5>{{contact.profesion}}</h5>
 
                                 <mdb-card-text>
-                                    Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                                    {{contact.direccion}}
                                 </mdb-card-text>
 
                                 <!--Facebook-->
@@ -56,13 +56,13 @@
                 <div class="col-md-6">
                     <form class="text-center border border-light p-5">
 
-                        <p class="h4 mb-4">Contact us</p>
+                        <p class="h4 mb-4">{{ 'contactos.Contact us' | translate }}</p>
 
                         <!-- Name -->
-                        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+                        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="{{'contactos.Name' | translate}}">
 
                         <!-- Email -->
-                        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+                        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="{{'contactos.E-mail' | translate}}">
 
                         <!-- Subject -->
                         <label>Subject</label>
@@ -76,7 +76,7 @@
 
                         <!-- Message -->
                         <div class="form-group">
-                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="{{'contactos.Message' | translate}}"></textarea>
                         </div>
 
                         <!-- Copy -->
@@ -84,14 +84,14 @@
                             <div class="col-md-6 mx-auto d-flex justify-content-center">
                                 <div class="custom-control custom-checkbox mb-4">
                                     <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-                                    <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+                                    <label class="custom-control-label" for="defaultContactFormCopy">{{'contactos.Send1' | translate }}</label>
                                 </div>
                             </div>
                         </div>
 
 
                         <!-- Send button -->
-                        <button class="btn btn-info btn-block" type="submit">Send</button>
+                        <button class="btn btn-info btn-block" type="submit">{{'contactos.Send' | translate }}</button>
 
                     </form>
                 </div>

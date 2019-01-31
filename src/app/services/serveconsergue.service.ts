@@ -37,9 +37,10 @@ export class ServeconsergueService {
     {
       nombre: 'Daniela Stranska',
       telfonos: this.telefonoContactos,
-      imagen: './../../../assets/images/dsimg/ds_opt.jpg',
+      imagen: './../../../assets/images/dsimg/contact.jpg',
       email: 'daniela@dsconciergemallorca.com',
       direccion: 'Carrer Forn d en Vila, 3, 07002 Palma de Mallorca (Islas Baleares), España, 07002 Palma de Mallorca, Islas Baleares'
+      , profesion: 'Consiergue'
     };
   private clasifi: ClasificacionI[] = [
     {
@@ -560,6 +561,7 @@ export interface ContactoI {
     imagen: string;
     email: string;
     direccion: string;
+    profesion:string;
 }
 export interface ActividadI {
   nombre: string;

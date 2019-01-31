@@ -46,5 +46,14 @@
     "Fun Pack": "Fun Pack",
     "Sorry requested page not found": "Sorry requested page not found",
     "Please select the desired option in the menu": "Please select the desired option in the menu",
-    "Read more": "Read more"
+    "Read more": "Read more",
+    "contactos": {
+        "Contact us": "Contact us",
+        "Name": "Name",
+        "E-mail": "E-mail",
+        "Message": "Message",
+        "Send1": "Send me a copy of this message",
+        "Send": "Send"
+
+    }
 }
