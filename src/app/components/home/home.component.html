@@ -1,168 +1,23 @@
-<!-- Jumbotron -->
-<div class="jumbotron p-0">
-
-    <!-- Card image -->
-    <div class="view overlay rounded-top waves-light" mdbWavesEffect>
-        <img src="../../../assets/images/dsimg/home_1920.png" class="img-fluid" alt="Sample image">
-        <a>
-            <div class="mask rgba-white-slight"></div>
-        </a>
-    </div>
-
-    <!-- Card content -->
-    <div class="card-body text-center mb-3">
-
-        <!-- Title -->
-        <h3 class="card-title h3 my-4"><strong>{{'home.Welcome to Remember' | translate}}</strong></h3>
-        <!-- Text -->
-        <p class="card-text py-2">{{'home.Personal Assistant in Mallorca' | translate }}</p>
-
-    </div>
-
-</div>
-<!-- Jumbotron -->
-
+<app-jumbotron></app-jumbotron>
 
 <h2 class="a-center">{{ 'home.titulo1' | translate }}</h2>
+
 <div class="row">
     <div class="col-md-4 mx-auto my-5" *ngFor="let serv of listaService">
-        <!--Card-->
-        <mdb-card dark="true" class="animated fadeInLeft">
-
-            <!--Card image-->
-            <div class="view overlay waves-light" mdbWavesEffect>
-                <mdb-card-img [src]="serv.imagen[0]"></mdb-card-img>
-                <a>
-                    <div class="mask rgba-white-slight"></div>
-                </a>
-            </div>
-            <!--/.Card image-->
-
-            <!--Card content-->
-            <mdb-card-body class="elegant-color white-text">
-                <a class="activator px-3 mr-2">
-                    <i class="fas fa-share-alt white-text"></i>
-                </a>
-
-                <!--Title-->
-                <mdb-card-title>
-                    <h4>{{serv.titulo}}</h4>
-                </mdb-card-title>
-
-                <hr class="hr-light">
-
-                <!--Text-->
-
-                <mdb-card-text class="white-text">
-                    {{serv.descripcion}}
-                </mdb-card-text>
-
-                <a [routerLink]="['/service',serv.id]" class="white-text d-flex justify-content-end">
-                    <h5 class="waves-light white-text" mdbWavesEffect>{{'Read more' | translate}}
-                        <span>
-                            <i class="fas fa-chevron-right pl-2 waves-light" mdbWavesEffect></i>
-                          </span>
-                    </h5>
-                </a>
-            </mdb-card-body>
-            <!--/.Card content-->
-        </mdb-card>
-        <!--/.Card-->
+        <app-card [servicio]="serv" [index]="serv.id"></app-card>
     </div>
 </div>
 <h2 class="bord-px">{{ 'home.titulo2' | translate }}</h2>
 <div class="row">
     <div class="col-md-4 mx-auto my-5" *ngFor="let serv of listaPacks">
-        <!--Card-->
-        <mdb-card dark="true" class="animated fadeInLeft">
-
-            <!--Card image-->
-            <div class="view overlay waves-light" mdbWavesEffect>
-                <mdb-card-img [src]="serv.imagen[0]"></mdb-card-img>
-                <a>
-                    <div class="mask rgba-white-slight"></div>
-                </a>
-            </div>
-            <!--/.Card image-->
-
-            <!--Card content-->
-            <mdb-card-body class="elegant-color white-text">
-                <a class="activator px-3 mr-2">
-                    <i class="fas fa-share-alt white-text"></i>
-                </a>
-
-                <!--Title-->
-                <mdb-card-title>
-                    <h4>{{serv.titulo}}</h4>
-                </mdb-card-title>
-
-                <hr class="hr-light">
-
-                <!--Text-->
-
-                <mdb-card-text class="white-text">
-                    {{serv.descripcion}}
-                </mdb-card-text>
-
-                <a [routerLink]="['/service',serv.id]" class="white-text d-flex justify-content-end">
-                    <h5 class="waves-light white-text" mdbWavesEffect>{{'Read more' | translate}}
-                        <span>
-                                <i class="fas fa-chevron-right pl-2 waves-light" mdbWavesEffect></i>
-                              </span>
-                    </h5>
-                </a>
-            </mdb-card-body>
-            <!--/.Card content-->
-        </mdb-card>
-        <!--/.Card-->
+        <app-card [servicio]="serv" [index]="serv.id"></app-card>
     </div>
 </div>
 
 <h2 class="bord-px">{{ 'home.titulo5' | translate }}</h2>
 <div class="row">
     <div class="col-md-4 mx-auto my-5" *ngFor="let serv of listaTeam">
-        <!--Card-->
-        <mdb-card dark="true" class="animated fadeInLeft">
-
-            <!--Card image-->
-            <div class="view overlay waves-light" mdbWavesEffect>
-                <mdb-card-img [src]="serv.imagen[0]"></mdb-card-img>
-                <a>
-                    <div class="mask rgba-white-slight"></div>
-                </a>
-            </div>
-            <!--/.Card image-->
-
-            <!--Card content-->
-            <mdb-card-body class="elegant-color white-text">
-                <a class="activator px-3 mr-2">
-                    <i class="fas fa-share-alt white-text"></i>
-                </a>
-
-                <!--Title-->
-                <mdb-card-title>
-                    <h4>{{serv.titulo}}</h4>
-                </mdb-card-title>
-
-                <hr class="hr-light">
-
-                <!--Text-->
-
-                <mdb-card-text class="white-text">
-                    {{serv.descripcion}}
-                </mdb-card-text>
-
-                <a [routerLink]="['/service',serv.id]" class="white-text d-flex justify-content-end">
-                    <h5 class="waves-light white-text" mdbWavesEffect>{{'Read more' | translate}}
-                        <span>
-                                <i class="fas fa-chevron-right pl-2 waves-light" mdbWavesEffect></i>
-                              </span>
-                    </h5>
-                </a>
-            </mdb-card-body>
-            <!--/.Card content-->
-        </mdb-card>
-        <!--/.Card-->
+        <app-card [servicio]="serv" [index]="serv.id"></app-card>
     </div>
 </div>
 <h2 class="bord-px">{{'contactos.Contact us'| translate}}</h2>

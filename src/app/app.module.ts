@@ -17,6 +17,10 @@ import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.co
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import { CardComponent } from './components/card/card.component';
+import { JumbotronComponent } from './components/shared/jumbotron/jumbotron.component';
+import { CardserviceComponent } from './components/cardservice/cardservice.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -33,7 +37,11 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     ServiceComponent,
     ServicesComponent,
     ContactComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    CardComponent,
+    JumbotronComponent,
+    CardserviceComponent,
+    CarouselComponent
 
    ],
   imports: [

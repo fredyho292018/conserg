@@ -1,0 +1,40 @@
+<mdb-card cascade="true" wider="true" reverse="true" class="my-4">
+    <!--Card image-->
+    <div class="view view-cascade overlay waves-light" mdbWavesEffect>
+        <app-carousel [servicio]="servicio"></app-carousel>
+    </div>
+    <!--/Card image-->
+
+    <!-- Card content -->
+    <mdb-card-body cascade="true" class="text-center">
+
+        <!--Title-->
+        <mdb-card-title>
+            <h4>
+                <strong>{{ servicio.titulo }}</strong>
+            </h4>
+        </mdb-card-title>
+
+        <h5 class="indigo-text">
+            <strong>{{ servicio.firma }}</strong>
+        </h5>
+
+        <mdb-card-text>
+            {{ servicio.descripcion }}
+        </mdb-card-text>
+
+        <!--Linkedin-->
+        <a class="icons-sm li-ic">
+            <i class="fab fa-linkedin-in px-2"> </i>
+        </a>
+        <!--Twitter-->
+        <a class="icons-sm tw-ic">
+            <i class="fab fa-twitter px-2"> </i>
+        </a>
+        <!--Dribbble-->
+        <a class="icons-sm fb-ic">
+            <i class="fab fa-facebook-f px-2"> </i>
+        </a>
+    </mdb-card-body>
+
+</mdb-card>
