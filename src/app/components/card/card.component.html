@@ -15,7 +15,7 @@
 
         <!--Title-->
         <mdb-card-title>
-            <h4>{{servicio.titulo}}</h4>
+            <h4>{{servicio.titulo | trim:30 }}</h4>
         </mdb-card-title>
 
         <hr class="hr-light">
@@ -23,7 +23,7 @@
         <!--Text-->
 
         <mdb-card-text class="white-text">
-            {{servicio.descripcion}}
+            {{servicio.descripcion | trim:55 }}
         </mdb-card-text>
 
         <a [routerLink]="['/service',servicio.id]" class="white-text d-flex justify-content-end">
