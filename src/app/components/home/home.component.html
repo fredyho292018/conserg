@@ -3,20 +3,20 @@
 <h2 class="a-center">{{ 'home.titulo1' | translate }}</h2>
 
 <div class="row">
-    <div class="col-md-4 mx-auto my-5" *ngFor="let serv of listaService">
+    <div class="col-md-3  mx-auto my-5" *ngFor="let serv of listaService">
         <app-card [servicio]="serv" [index]="serv.id"></app-card>
     </div>
 </div>
 <h2 class="bord-px">{{ 'home.titulo2' | translate }}</h2>
 <div class="row">
-    <div class="col-md-4 mx-auto my-5" *ngFor="let serv of listaPacks">
+    <div class="col-md-3  mx-auto my-5" *ngFor="let serv of listaPacks">
         <app-card [servicio]="serv" [index]="serv.id"></app-card>
     </div>
 </div>
 
 <h2 class="bord-px">{{ 'home.titulo5' | translate }}</h2>
 <div class="row">
-    <div class="col-md-4 mx-auto my-5" *ngFor="let serv of listaTeam">
+    <div class="col-md-3  mx-auto my-5" *ngFor="let serv of listaTeam">
         <app-card [servicio]="serv" [index]="serv.id"></app-card>
     </div>
 </div>
