@@ -1,0 +1,9 @@
+section.servicios > h2 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+section.servicios div.service-auto:hover i {
+    color:#33b5e5;
+    transform:rotateY(360deg);
+}

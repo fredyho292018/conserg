@@ -26,11 +26,11 @@
             {{servicio.descripcion | trim:57 }}
         </mdb-card-text>
 
-        <a [routerLink]="['/service',servicio.id]" class="white-text d-flex justify-content-end">
+        <a [routerLink]="['/service',servicio.id]" class="white-text d-flex justify-content-end link-see-more">
             <h5 class="waves-light white-text leer-mas" mdbWavesEffect>{{'Read more' | translate}}
                 <span>
-                      <i class="fas fa-chevron-right pl-2 waves-light" mdbWavesEffect></i>
-                    </span>
+                    <i class="fas fa-chevron-right pl-2 waves-light" mdbWavesEffect></i>
+                </span>
             </h5>
         </a>
     </mdb-card-body>

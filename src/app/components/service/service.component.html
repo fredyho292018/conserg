@@ -1,18 +1,24 @@
-<div class="container">
+<section class="servicios py-2 text-xs-center section-card">
+    <h2 class="a-center"> {{ servicioT.tituloActividades }}</h2>
     <div class="row">
         <div class="col-sm-12">
-            <h2 class="a-center"> {{ servicioT.tituloActividades }}</h2>
             <app-cardservice [servicio]="servicioT"></app-cardservice>
-
-
-            <app-contact></app-contact>
-
         </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-md-4 mx-auto my-5" *ngFor="let vid of servicioT.video; let i=index">
+</section>
 
-        <a [href]="vid.video" target="_blank"><img class="img-fluid z-depth-1" [src]="vid.imagen" alt="video" data-toggle="modal" data-target="#modal1"></a>
+<section class="servicios py-2 text-xs-center gris section-card">
+    <h2 class="a-center"> Otros Servicios Relacionados</h2>
+    <div class="row">
+        <div class="col-md-4 mx-auto my-5" *ngFor="let vid of servicioT.video; let i=index">
+            <a [href]="vid.video" target="_blank">
+                <img class="img-fluid z-depth-1" [src]="vid.imagen" alt="video" data-toggle="modal" data-target="#modal1">
+            </a>
+        </div>
     </div>
-</div>
+</section>
+
+<section class="servicios py-2 text-xs-center section-card">
+    <h2 class="bord-px h3 mb-3">{{ 'contactos.Contact us' | translate }}</h2>
+    <app-contact [contactHomePage]="false"></app-contact>
+</section>
