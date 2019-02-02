@@ -22,6 +22,7 @@ import { JumbotronComponent } from './components/shared/jumbotron/jumbotron.comp
 import { CardserviceComponent } from './components/cardservice/cardservice.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { TrimPipe } from './pipes/trim.pipe';
+import { WhoareComponent } from './components/whoare/whoare.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -43,7 +44,8 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     JumbotronComponent,
     CardserviceComponent,
     CarouselComponent,
-    TrimPipe
+    TrimPipe,
+    WhoareComponent
 
    ],
   imports: [

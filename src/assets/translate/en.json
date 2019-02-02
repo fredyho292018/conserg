@@ -55,5 +55,9 @@
         "Message": "Message",
         "Send1": "Send me a copy of this message",
         "Send": "Send"
+    },
+    "whoare": {
+        "titulo": "Who are",
+        ""
     }
 }

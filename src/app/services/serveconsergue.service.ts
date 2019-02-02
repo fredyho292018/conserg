@@ -45,64 +45,64 @@ export class ServeconsergueService {
   private clasifi: ClasificacionI[] = [
     {
       clasificacion: 'Packs',
-      titulo: 'Mallorca DS Concierge Packs',
+      titulo: 'Packs',
       id: 1
     },
     {
       clasificacion: 'Services',
-      titulo: 'Mallorca DS Concierge Free Time Services',
+      titulo: 'Free Time Services',
       id: 2
     },
     {
       clasificacion: 'Team',
-      titulo: 'Mallorca DS Concierge Comprehensive Security System Services',
+      titulo: 'Comprehensive Security System Services',
       id: 3
     },
     {
       clasificacion: 'Services',
-      titulo: 'Mallorca DS Concierge Comprehensive Security System Services',
+      titulo: 'Comprehensive Security System Services',
       id: 4
     }
   ];
 
   private dslista: ServeI[] = [
     {
-      titulo: 'Mallorca DS Concierge Fun Pack',
+      titulo: 'Fun Pack',
       descripcion: 'Our exclusive packs are designed to have the best experiences without worries.',
       firma: 'DS Team.',
-      imagen: ['./../../../assets/images/dsimg/fun_1920.png'],
+      imagen: ['./../../../assets/images/dsimg/a.jpg'],
       tituloActividades: 'Fun Pack Services',
       // tslint:disable-next-line:max-line-length
       actividades: [
         {
         nombre: 'Actividad 1',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/b.jpg'
         },
         {
         nombre: 'Actividad 2',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/c.jpg'
         },
         {
           nombre: 'Actividad 3',
           descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/d.jpg'
           },
     ]
         ,
       // tslint:disable-next-line:max-line-length
       video: [{
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/h.jpg'
       },
       {
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/l.jpg'
       },
       {
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/c.jpg'
       }
     ],
       id: 1,
@@ -110,41 +110,41 @@ export class ServeconsergueService {
       clasificacion: this.clasifi[1]
     },
     {
-      titulo: 'Mallorca DS Concierge Sport Pac',
+      titulo: 'Sport Pac',
       descripcion: 'We are at your disposal during the entire stay.',
       firma: 'DS Team.',
-      imagen: ['./../../../assets/images/dsimg/sport_1920.png'],
+      imagen: ['./../../../assets/images/dsimg/b.jpg'],
       tituloActividades: 'Sport Pack Services',
       // tslint:disable-next-line:max-line-length
       actividades: [
         {
         nombre: 'Actividad 1',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/c.jpg'
         },
         {
         nombre: 'Actividad 2',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/d.jpg'
         },
         {
           nombre: 'Actividad 3',
           descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/e.jpg'
           },
     ]
         ,
         video: [{
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/h.jpg'
         },
         {
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+          imagen: './../../../assets/images/dsimg/l.jpg'
         },
         {
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/a.jpg'
         }
       ],
       id: 2,
@@ -152,41 +152,41 @@ export class ServeconsergueService {
       clasificacion: this.clasifi[1]
     },
     {
-      titulo: 'Mallorca DS Concierge Relax & Spa Pack',
+      titulo: 'Relax & Spa Pack',
       descripcion: 'Contact us if you want another type of service or to create a custom pack',
       firma: 'DS Team.',
-      imagen: ['./../../../assets/images/dsimg/sport_1920.png'],
+      imagen: ['./../../../assets/images/dsimg/c.jpg'],
       tituloActividades: 'Relax & Spa Pack Services',
       // tslint:disable-next-line:max-line-length
       actividades: [
         {
         nombre: 'Actividad 1',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/d.jpg'
         },
         {
         nombre: 'Actividad 2',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/e.jpg'
         },
         {
           nombre: 'Actividad 3',
           descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/f.jpg'
           },
     ]
         ,
         video: [{
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/h.jpg'
         },
         {
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+          imagen: './../../../assets/images/dsimg/b.jpg'
         },
         {
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/l.jpg'
         }
       ],
       id: 3,
@@ -194,42 +194,42 @@ export class ServeconsergueService {
       clasificacion: this.clasifi[1]
     },
     {
-      titulo: 'Mallorca DS Concierge Restaurant Services',
+      titulo: 'Restaurant Services',
       // tslint:disable-next-line:max-line-length
       descripcion: 'We recommend and organize visits to the hairdresser and beauty salon of the gym according to the locality, quality and offers.',
       firma: 'DS Team.',
-      imagen: ['./../../../assets/images/dsimg/camareros-1.jpg'],
+      imagen: ['./../../../assets/images/dsimg/l.jpg'],
       tituloActividades: 'Restaurant Recommendation and Reservation Services',
       // tslint:disable-next-line:max-line-length
       actividades: [
         {
         nombre: 'Actividad 1',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/d.jpg'
         },
         {
         nombre: 'Actividad 2',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/e.jpg'
         },
         {
           nombre: 'Actividad 3',
           descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/f.jpg'
           },
     ]
         ,
         video: [{
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/h.jpg'
         },
         {
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+          imagen: './../../../assets/images/dsimg/l.jpg'
         },
         {
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/a.jpg'
         }
       ],
       id: 4,
@@ -237,40 +237,40 @@ export class ServeconsergueService {
       clasificacion: this.clasifi[2]
     },
     {
-      titulo: 'Mallorca DS Concierge Catering Organization Services at Home and Boats',
-      descripcion: 'We take care of the private organization.',
+      titulo: 'Catering Organization Services at Home and Boats',
+      descripcion: 'We take care of the private organization food and drink to your liking.',
       firma: 'DS Team.',
-      imagen: ['./../../../assets/images/dsimg/catering-1.jpg'],
+      imagen: ['./../../../assets/images/dsimg/e.jpg'],
       tituloActividades: 'Catering Services',
       actividades: [
         {
         nombre: 'Actividad 1',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/f.jpg'
         },
         {
         nombre: 'Actividad 2',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/h.jpg'
         },
         {
           nombre: 'Actividad 3',
           descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/l.jpg'
           },
     ]
         ,
         video: [{
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/a.jpg'
         },
         {
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+          imagen: './../../../assets/images/dsimg/b.jpg'
         },
         {
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/e.jpg'
         }
       ],
       id: 5,
@@ -278,41 +278,41 @@ export class ServeconsergueService {
       clasificacion: this.clasifi[2]
     },
     {
-      titulo: 'Mallorca DS Concierge Waiters Services',
+      titulo: 'Waiters Services',
       descripcion: 'Or contracting personal trainer to your private home or the boat.',
       firma: 'DS Team.',
-      imagen: ['./../../../assets/images/dsimg/camareros-1.jpg'],
+      imagen: ['./../../../assets/images/dsimg/f.jpg'],
       tituloActividades: 'Waiter Services',
       actividades: [
         {
         nombre: 'Actividad 1',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/h.jpg'
         },
         {
         nombre: 'Actividad 2',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/l.jpg'
         },
         {
           nombre: 'Actividad 3',
           descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/a.jpg'
           },
     ]
         ,
       // tslint:disable-next-line:max-line-length
       video: [{
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/b.jpg'
       },
       {
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/c.jpg'
       },
       {
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/d.jpg'
       }
     ],
       id: 6,
@@ -320,42 +320,42 @@ export class ServeconsergueService {
       clasificacion: this.clasifi[2]
     },
     {
-      titulo: 'Mallorca DS Concierge Maintenance House Services',
+      titulo: 'Maintenance House Services',
       descripcion: 'We’ll do the surcharges like simple quality dry cleaning, florist and food purchases.',
       firma: 'DS Team.',
-      imagen: ['./../../../assets/images/dsimg/camareros-1.jpg'],
+      imagen: ['./../../../assets/images/dsimg/l.jpg'],
       tituloActividades: 'Maintenance House Services',
       // tslint:disable-next-line:max-line-length
       actividades: [
         {
         nombre: 'Actividad 1',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/a.jpg'
         },
         {
         nombre: 'Actividad 2',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/b.jpg'
         },
         {
           nombre: 'Actividad 3',
           descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/c.jpg'
           },
     ]
         ,
       // tslint:disable-next-line:max-line-length
       video: [{
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/d.jpg'
       },
       {
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/e.jpg'
       },
       {
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/h.jpg'
       }
     ],
       id: 7,
@@ -363,41 +363,41 @@ export class ServeconsergueService {
       clasificacion: this.clasifi[3]
     },
     {
-      titulo: 'Mallorca DS Concierge Maintenance Boat Services',
+      titulo: 'Maintenance Boat Services',
       // tslint:disable-next-line:max-line-length
       descripcion: 'Included from the boat cleaning or your own house, arrangements and maintenance service, up to watch or take your pet out for a walk.',
       firma: 'DS Team.',
-      imagen: ['./../../../assets/images/dsimg/camareros-1.jpg'],
+      imagen: ['./../../../assets/images/dsimg/b.jpg'],
       tituloActividades: 'Maintenance Boat Services',
       actividades: [
         {
         nombre: 'Actividad 1',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/c.jpg'
         },
         {
         nombre: 'Actividad 2',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/d.jpg'
         },
         {
           nombre: 'Actividad 3',
           descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/e.jpg'
           },
     ]
         ,
         video: [{
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/f.jpg'
         },
         {
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+          imagen: './../../../assets/images/dsimg/h.jpg'
         },
         {
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/l.jpg'
         }
       ],
       id: 8,
@@ -405,41 +405,41 @@ export class ServeconsergueService {
       clasificacion: this.clasifi[3]
     },
     {
-      titulo: 'Mallorca DS Concierge Babysitter Services',
+      titulo: 'Babysitter Services',
       descripcion: 'We organize services babysitter, visits to doctors or hospitals.',
       firma: 'DS Team.',
-      imagen: ['./../../../assets/images/dsimg/camareros-1.jpg'],
+      imagen: ['./../../../assets/images/dsimg/c.jpg'],
       tituloActividades: 'Babysitter Services',
       // tslint:disable-next-line:max-line-length
       actividades: [
         {
         nombre: 'Actividad 1',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/d.jpg'
         },
         {
         nombre: 'Actividad 2',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/e.jpg'
         },
         {
           nombre: 'Actividad 3',
           descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/f.jpg'
           },
     ]
         ,
         video: [{
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/h.jpg'
         },
         {
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+          imagen: './../../../assets/images/dsimg/l.jpg'
         },
         {
           video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/a.jpg'
         }
       ],
       id: 9,
@@ -447,40 +447,40 @@ export class ServeconsergueService {
       clasificacion: this.clasifi[3]
     },
     {
-      titulo: 'Mallorca DS Concierge Babysitter Services',
+      titulo: 'Babysitter Services',
       descripcion: 'We organize services babysitter, visits to doctors or hospitals.',
       firma: 'DS Team.',
-      imagen: ['./../../../assets/images/dsimg/guardaespaldas.jpg'],
+      imagen: ['./../../../assets/images/dsimg/f.jpg'],
       tituloActividades: 'Babysitter Services',
       // tslint:disable-next-line:max-line-length
       actividades: [
         {
         nombre: 'Actividad 1',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/e.jpg'
         },
         {
         nombre: 'Actividad 2',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/d.jpg'
         },
         {
           nombre: 'Actividad 3',
           descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/c.jpg'
           },
     ],
     video: [{
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/k.jpg'
       },
       {
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/l.jpg'
       },
       {
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/f.jpg'
       }
     ],
       id: 10,
@@ -488,40 +488,40 @@ export class ServeconsergueService {
       clasificacion: this.clasifi[3]
     } ,
     {
-      titulo: 'Mallorca DS Concierge Babysitter Services',
+      titulo: 'Babysitter Services',
       descripcion: 'We organize services babysitter, visits to doctors or hospitals.',
       firma: 'DS Team.',
-      imagen: ['./../../../assets/images/dsimg/guardaespaldas.jpg'],
+      imagen: ['./../../../assets/images/dsimg/f.jpg'],
       tituloActividades: 'Babysitter Services',
       // tslint:disable-next-line:max-line-length
       actividades: [
         {
         nombre: 'Actividad 1',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/a.jpg'
         },
         {
         nombre: 'Actividad 2',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/b.jpg'
         },
         {
           nombre: 'Actividad 3',
           descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/c.jpg'
           },
     ],
     video: [{
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/d.jpg'
       },
       {
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/l.jpg'
       },
       {
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/k.jpg'
       }
     ],
       id: 11,
@@ -529,40 +529,40 @@ export class ServeconsergueService {
       clasificacion: this.clasifi[1]
     },
     {
-      titulo: 'Mallorca DS Concierge Babysitter Services',
+      titulo: 'Babysitter Services',
       descripcion: 'We organize services babysitter, visits to doctors or hospitals.',
       firma: 'DS Team.',
-      imagen: ['./../../../assets/images/dsimg/guardaespaldas.jpg'],
+      imagen: ['./../../../assets/images/dsimg/a.jpg'],
       tituloActividades: 'Babysitter Services',
       // tslint:disable-next-line:max-line-length
       actividades: [
         {
         nombre: 'Actividad 1',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/d.jpg'
         },
         {
         nombre: 'Actividad 2',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/c.jpg'
         },
         {
           nombre: 'Actividad 3',
           descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/d.jpg'
           },
     ],
     video: [{
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/h.jpg'
       },
       {
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/l.jpg'
       },
       {
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/a.jpg'
       }
     ],
       id: 12,
@@ -570,40 +570,40 @@ export class ServeconsergueService {
       clasificacion: this.clasifi[1]
     },
     {
-      titulo: 'Mallorca DS Concierge Babysitter Services',
+      titulo: 'Babysitter Services',
       descripcion: 'We organize services babysitter, visits to doctors or hospitals.',
       firma: 'DS Team.',
-      imagen: ['./../../../assets/images/dsimg/guardaespaldas.jpg'],
+      imagen: ['./../../../assets/images/dsimg/a.jpg'],
       tituloActividades: 'Babysitter Services',
       // tslint:disable-next-line:max-line-length
       actividades: [
         {
         nombre: 'Actividad 1',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/d.jpg'
         },
         {
         nombre: 'Actividad 2',
         descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/c.jpg'
         },
         {
           nombre: 'Actividad 3',
           descripcion: 'As catering and boats, catering is offered with exclusive food and drink to your liking',
-          imagen: './../../../assets/images/dsimg/fun_1920.png'
+          imagen: './../../../assets/images/dsimg/d.jpg'
           },
     ],
     video: [{
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/h.jpg'
       },
       {
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/camareros-1.jpg'
+        imagen: './../../../assets/images/dsimg/l.jpg'
       },
       {
         video: 'https://www.youtube.com/embed/GUEZCxBcM78',
-        imagen: './../../../assets/images/dsimg/fun_1920.png'
+        imagen: './../../../assets/images/dsimg/a.jpg'
       }
     ],
       id: 13,
@@ -684,7 +684,7 @@ export interface ContactoI {
     imagen: string;
     email: string;
     direccion: string;
-    profesion:string;
+    profesion: string;
 }
 export interface ActividadI {
   nombre: string;
