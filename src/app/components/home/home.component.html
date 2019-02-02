@@ -12,7 +12,7 @@
 
 <section class="servicios py-2 text-xs-center gris">
     <div class="container">
-        <h2 class="h3 mb-3">NUESTROS SERVICIOS</h2>
+        <h2 class="h3 mb-3">Nuestros Servicios</h2>
 
         <div class="row">
             <div class="col-md-4 text-center">
@@ -37,7 +37,7 @@
 </section>
 
 <section class="servicios py-2 text-xs-center section-card">
-    <h2 class="bord-px">{{ 'home.titulo2' | translate }}</h2>
+    <h2 class="bord-px h3 mb-3">{{ 'home.titulo2' | translate }}</h2>
     <div class="row">
         <div class="col-md-3  mx-auto my-5" *ngFor="let serv of listaPacks">
             <app-card [servicio]="serv" [index]="serv.id"></app-card>
@@ -46,7 +46,7 @@
 </section>
 
 <section class="servicios py-2 text-xs-center gris section-card">
-    <h2 class="bord-px">{{ 'home.titulo5' | translate }}</h2>
+    <h2 class="bord-px h3 mb-3">{{ 'home.titulo5' | translate }}</h2>
     <div class="row">
         <div class="col-md-3  mx-auto my-5" *ngFor="let serv of listaTeam">
             <app-card [servicio]="serv" [index]="serv.id"></app-card>
@@ -54,8 +54,9 @@
     </div>
 </section>
 
-<section class="servicios py-2 text-xs-center">
-    <h2 class="bord-px">{{ 'contactos.Contact us' | translate }}</h2>
-    <app-contact></app-contact>
+<section class="servicios py-2 text-xs-center section-card">
+    <h2 class="bord-px h3 mb-3">{{ 'contactos.Contact us' | translate }}</h2>
+    <app-contact [contactHomePage]="false"></app-contact>
 </section>
+
 <app-whoare></app-whoare>

@@ -1,10 +1,12 @@
-<div class="container">
+<section class="servicios py-2 text-xs-center gris section-card">
     <div class="row">
-
         <div class="col-md-3 mx-auto my-5" *ngFor="let serv of listaServes">
             <app-card [servicio]="serv" [index]=serv.id></app-card>
         </div>
-
-
     </div>
-</div>
+</section>
+
+<section class="servicios py-2 text-xs-center section-card">
+    <h2 class="bord-px h3 mb-3">{{ 'contactos.Contact us' | translate }}</h2>
+    <app-contact [contactHomePage]="false"></app-contact>
+</section>

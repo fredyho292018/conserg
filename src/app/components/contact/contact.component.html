@@ -1,102 +1,102 @@
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452"
-                width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+<div class="row" *ngIf="contactHomePage">
+    <div class="col-md-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452"
+            width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</div>
+
+
+<div class="row">
+
+    <div class="col-md-8" *ngIf="!contactHomePage">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452"
+            width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <div class="col-md-{{column1}}" *ngIf="contactHomePage">
+
+        <mdb-card cascade="true">
+
+            <!--Card image-->
+            <div class="view view-cascade overlay waves-light" mdbWavesEffect>
+                <mdb-card-img [src]="contact.imagen"></mdb-card-img>
+                <a>
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+            <!--/Card image-->
+
+            <mdb-card-body cascade="true" class="text-center">
+                <!--Card content-->
+                <h4 class="card-title">
+                    <strong>{{contact.nombre}}</strong>
+                </h4>
+                <h5>{{contact.profesion}}</h5>
+
+                <mdb-card-text>
+                    {{contact.direccion}}
+                </mdb-card-text>
+
+                <!--Facebook-->
+                <a type="button" class="btn-floating btn-small btn-fb waves-light" mdbWavesEffect>
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <!--Twitter-->
+                <a type="button" class="btn-floating btn-small btn-tw waves-light" mdbWavesEffect>
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <!--Google +-->
+                <a type="button" class="btn-floating btn-small btn-dribbble waves-light" mdbWavesEffect>
+                    <i class="fab fa-dribbble"></i>
+                </a>
+
+            </mdb-card-body>
+            <!--/.Card content-->
+
+        </mdb-card>
+        <!--/.Card-->
+    </div>
+
+    <div class="col-md-{{column2}}">
+        <form class="text-center border border-light p-5">
+
+             <!-- <p class="h4 mb-4">{{ 'contactos.Contact us' | translate }}</p> -->
+
+            <!-- Name -->
+            <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="{{'contactos.Name' | translate}}">
+
+            <!-- Email -->
+            <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="{{'contactos.E-mail' | translate}}">
+
+            <!-- Subject -->
+            <label>Subject</label>
+            <select class="browser-default custom-select mb-4">
+                <option value="" disabled>Choose option</option>
+                <option value="1" selected>Feedback</option>
+                <option value="2">Report a bug</option>
+                <option value="3">Feature request</option>
+                <option value="4">Feature request</option>
+            </select>
+
+            <!-- Message -->
+            <div class="form-group">
+                <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="{{'contactos.Message' | translate}}"></textarea>
+            </div>
+
+            <!-- Copy -->
             <div class="row">
-                <div class="col-md-6">
-                    <div class="row">
-
-
-
-
-                        <mdb-card cascade="true">
-
-                            <!--Card image-->
-                            <div class="view view-cascade overlay waves-light" mdbWavesEffect>
-                                <mdb-card-img [src]="contact.imagen"></mdb-card-img>
-                                <a>
-                                    <div class="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
-                            <!--/Card image-->
-
-                            <mdb-card-body cascade="true" class="text-center">
-                                <!--Card content-->
-                                <h4 class="card-title">
-                                    <strong>{{contact.nombre}}</strong>
-                                </h4>
-                                <h5>{{contact.profesion}}</h5>
-
-                                <mdb-card-text>
-                                    {{contact.direccion}}
-                                </mdb-card-text>
-
-                                <!--Facebook-->
-                                <a type="button" class="btn-floating btn-small btn-fb waves-light" mdbWavesEffect>
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <!--Twitter-->
-                                <a type="button" class="btn-floating btn-small btn-tw waves-light" mdbWavesEffect>
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <!--Google +-->
-                                <a type="button" class="btn-floating btn-small btn-dribbble waves-light" mdbWavesEffect>
-                                    <i class="fab fa-dribbble"></i>
-                                </a>
-
-                            </mdb-card-body>
-                            <!--/.Card content-->
-
-                        </mdb-card>
-                        <!--/.Card-->
+                <div class="col-md-6 mx-auto d-flex justify-content-center">
+                    <div class="custom-control custom-checkbox mb-4">
+                        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                        <label class="custom-control-label" for="defaultContactFormCopy">{{'contactos.Send1' | translate }}</label>
                     </div>
-
-                </div>
-                <div class="col-md-6">
-                    <form class="text-center border border-light p-5">
-
-                        <p class="h4 mb-4">{{ 'contactos.Contact us' | translate }}</p>
-
-                        <!-- Name -->
-                        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="{{'contactos.Name' | translate}}">
-
-                        <!-- Email -->
-                        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="{{'contactos.E-mail' | translate}}">
-
-                        <!-- Subject -->
-                        <label>Subject</label>
-                        <select class="browser-default custom-select mb-4">
-                                          <option value="" disabled>Choose option</option>
-                                          <option value="1" selected>Feedback</option>
-                                          <option value="2">Report a bug</option>
-                                          <option value="3">Feature request</option>
-                                          <option value="4">Feature request</option>
-                                        </select>
-
-                        <!-- Message -->
-                        <div class="form-group">
-                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="{{'contactos.Message' | translate}}"></textarea>
-                        </div>
-
-                        <!-- Copy -->
-                        <div class="row">
-                            <div class="col-md-6 mx-auto d-flex justify-content-center">
-                                <div class="custom-control custom-checkbox mb-4">
-                                    <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-                                    <label class="custom-control-label" for="defaultContactFormCopy">{{'contactos.Send1' | translate }}</label>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <!-- Send button -->
-                        <button class="btn btn-info btn-block" type="submit">{{'contactos.Send' | translate }}</button>
-
-                    </form>
                 </div>
             </div>
-        </div>
 
+
+            <!-- Send button -->
+            <button class="btn btn-info btn-block" type="submit">{{'contactos.Send' | translate }}</button>
+
+        </form>
     </div>
 </div>
