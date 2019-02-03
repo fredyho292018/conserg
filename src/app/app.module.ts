@@ -23,6 +23,8 @@ import { CardserviceComponent } from './components/cardservice/cardservice.compo
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { TrimPipe } from './pipes/trim.pipe';
 import { WhoareComponent } from './components/whoare/whoare.component';
+import { PresentationComponent } from './components/presentation/presentation.component';
+import { RequirementsComponent } from './components/requirements/requirements.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -45,7 +47,9 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     CardserviceComponent,
     CarouselComponent,
     TrimPipe,
-    WhoareComponent
+    WhoareComponent,
+    PresentationComponent,
+    RequirementsComponent
 
    ],
   imports: [
