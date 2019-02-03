@@ -56,6 +56,10 @@
         "Message": "Mensaje",
         "Send1": "Enviame una copia de este mensaje",
         "Send": "Enviame"
+    },
+    "whoare": {
+        "titulo": "Who are"
+
     }
 
 }

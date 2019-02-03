@@ -17,6 +17,12 @@
     /*border-top: 1px solid;*/
 }
 
+.bord-px1 {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid;
+}
+
 .a-center {
     text-align: center;
 }
@@ -63,14 +69,48 @@
     padding-left: 15px;
 }
 
-.mr-3, .mx-3 {
+.mr-3,
+.mx-3 {
     margin-right: 0px !important;
 }
 
 .leer-mas {
-        font-size: 0.9rem !important;
+    font-size: 0.9rem !important;
 }
 
 .card {
     min-height: 30rem !important;
+}
+
+
+/*Estilos bloque Presentacion*/
+
+.servicios .presentacion .tit {
+    text-align: right;
+    font-size: 20px;
+}
+
+.servicios .presentacion .tit1 {
+    text-align: right;
+    font-size: 15px;
+}
+
+.servicios .presentacion .des {
+    text-align: right;
+    font-size: 15px;
+}
+
+.servicios .presentacion .titr {
+    text-align: left;
+    font-size: 20px;
+}
+
+.servicios .presentacion .titr1 {
+    text-align: left;
+    font-size: 15px;
+}
+
+.servicios .presentacion .desr {
+    text-align: left;
+    font-size: 15px;
 }
